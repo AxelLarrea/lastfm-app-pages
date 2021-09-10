@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f4f4;
+    color: #3c484e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: #153021;
+    margin-bottom: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.header a {
+    text-decoration: none;
+    color: #f6faf8;
+}
+
+.header-logo {
+    margin: auto;
+}
+
+.albums {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 80px;
+}
+
+.albums article {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.albums a {
+    color: #153021;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+.albums img {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.singer-inner {
+    display: flex;
+    justify-content: center;
+    padding-top: 112px;
+}
+
+.singer-card {
+    text-decoration: none;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    border-radius: 5px;
+    animation-duration: 2s;
+    animation-name: fade;
+}
+
+.singer-card img {
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.singer-card h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin: 20px 20px 20px 30px;
+}
